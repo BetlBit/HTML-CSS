@@ -1,22 +1,14 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Текстовые поля в HTML5</title>
-    </head>
-    <body>
-			<form>
-				<p>
-						<label for="login">Логин: </label>
-						<input type="text" autofocus id="login" name="login" />
-				</p>
-				<p>
-						<label for="password">Пароль: </label>
-						<input type="password" id="password" name="password" />
-				</p>
-				<p>
-						<button type="submit">Отправить</button>
-				</p>
+	<head>
+		<title>Использование атрибута size HTML тега <input></title>
+	</head>
+	<body>
+		<form name = "myForm"> <!-- создаем форму --> 
+			<input type = "text" size = "3" value = "3"><br> <!-- ширина элемента 3 символа -->
+			<input type = "text" size = "5" value = "5"><br> <!-- ширина элемента 5 символов --> 
+			<input type = "text" size = "10" value = "10"><br> <!-- ширина элемента 10 символов --> 
+			<input type = "text" value = "20 (по умолчанию)"><br> <!-- ширина элемента 20 символов (по умолчанию) --> 
 		</form>
-    </body>
+	</body>
 </html>
