@@ -1,8 +1,10 @@
+(https://clck.ru/ahTRt)
+(https://yoksel.github.io/html-tree/) - БЭМ проверка
 Элементы:
 <header>   </header> - Шапка страницы, где обычно - название, логотип, форма поиска и т.п. (https://clck.ru/ahQPW)
 	<header> нельзя помещать в address, footer или другой header
 
-<aside>   </aside> - Боковая панель внутри <body>   </body> (https://clck.ru/ahQRb)
+<aside>   </aside> - Боковая панель внутри <main>   </main> (https://clck.ru/ahQRb)
 	Обычно в нем располагается рекламный блок, сайдбар, навигационная панель, плагины и т.д.
 
 <main>   </main> - Само содержимое сайта. Принято разделять сайт на части: (https://clck.ru/ahQVW)
